@@ -1,0 +1,35 @@
+def say_hello():
+  #함수 선언
+  print("hello how r u?")
+
+say_hello()
+#함수 호출하는 방법
+
+def say_by():
+  print("bye bye")
+  # 반드시 2칸 들어가야 함수에 종속된 내용임을 알 수 있다.
+
+
+def say_hello(name):
+  # 파라미터 값을 받는 함수
+  print("hello",name, "how r u?")
+
+say_hello("nico")
+
+def say_hello(user_name, user_age):
+  print("hello", user_name)
+  print("you are", user_age, "years old")
+
+say_hello("nico", 12)
+
+
+
+def tax_calculator():
+  print(150000000000 * 0.35)
+
+tax_calculator()
+
+def tax_calculator(money):
+  print(money * 0.35)
+
+tax_calculator(30000000000)
